@@ -1,4 +1,4 @@
-FROM ubuntu:17.10 AS production
+FROM ubuntu:latest AS production
 EXPOSE 8983
 RUN apt-get update
 RUN apt-get install -y default-jre
